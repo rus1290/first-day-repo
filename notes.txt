@@ -1,0 +1,418 @@
+Pre-course work key take aways:
+
+User story - it is important to take into consideration needs of an end user. Before building a website, create a profile of a user of a website.
+             Make sure that the profile answers these 3 questions:
+			 1. the type of a user you build your app or website for.
+			 2. what the user wants from the app or website that you are building.
+			 3. what problem user is trying to solve?
+
+Acceptance criteria - a list of key things your app or a website must achieve in order to be considered finished.
+
+Develop a growth mindset: Growth mindset in contrast to a fixed mind set encourages you to pursue everlasting learning, and acceptance of new challenges for the sake of constant development.
+                          - In growth mindset, one of the best practises to develop is to adopt "not yet" principle. When challenged by an obsticle on a learning path, say to yourself: I am not yet ready for this, instead of
+						    saying "I can't do this yet". This way you are programming yourself for more thorough learning and seeking new solutions to the problem, rather than walking away from challenges and setting yourself up
+							for failure.
+	                      - view problems as opportunities for growth and focus on the process of solving problems rather than the solution.
+						  - computational thinking can help you understand the process of solving problems.
+
+Develop computational thinking: is a process of understansing a complex problem by breaking it down into smaller parts and work on a solution that will be clearly understandable by humans and machines.
+                                Four cornerstones of a computational thinking:
+								1. Decomposition - breaking problem into smaller tasks.
+								   Example: lets say your job is to put away dishes in an oprganized manner: plain plates, fancy plates and plain bowls.
+								            You would have to break down a larger problem of putting away the dishes by breaking it down into a sepparate task for each dish:
+								            // Tasks:
+								            // stack plain plates
+								            // stack fancy plates
+								            // stack plain bowls
+								   
+								2. Pattern recognition - or finding a solution to sub tasks and also finding any patterns that would help us solve the problem. 
+								                         For example, let's say that we have only two shelves to stack our plates on - top and bottom.
+								                         Here is how we would pseudocode the solution:
+														 // Pattern recognition:
+														 // plain plates go on a bottom shelf
+														 // fancy plates go on a top shelf
+														 // plain bowls go on top of plain plates
+								   
+								3. Abstraction - is a process of focusing only on relevant information and disregarding any details that won't help us to solve the problem.
+								                 Now lets imagine that our dishes are in a drying rack and we need to sort them. There is a towel to dry the dishes and a knife in a rack.
+												 Pesudocode for this problem:
+												 // Abstraction:
+												 // Ignore knife
+												 // Ignore towel
+												 
+								4. Testing and debbuging algorithms - an algorithm is a sequence of steps or rules that we can use to solve our problem. In our case, it will be a sequence of events or tasks
+								                                      of putting away the dishes:
+																	  // Algorithms:
+																	  // Task 1: putting away dishes:
+																	  // Task 2: putting away bowls:
+																	  We've created two sepparate events of putting away plates and dishes so we could put away plates first and then stack bowls on top of them.
+																	  We've done it on purpose so one event will trigger another one. This process is called: event trigger.
+																	  Next step will be to prevent plain plates from mixing up with fancy plates:
+																	  
+																	  // Sequence:
+																	  // 1. Event 1: Put away plates:
+																	  // Conditional: If (a plate is fancy) {
+																	  //              stack it on the top shelf
+                                                                      //              } else {
+                                                                      //              stack it on a bottom shelf																					  
+                                                                      //              }
+																	  // 2. Event 2: Put away bowls:
+																	  
+																	  We've used a conditional statement in the example above.
+																	  Conditional statements allows us to make decisions based on the conditions in our code.
+																	  In our example, if plate meets the condition of being fancy, we stack it on top of the shelf.
+																	  Otherwise, we consider it plain and stack at the bottom of the shelf.
+																	  
+																	  // Debug: A fancy plate has crack in it - what do we do?
+																	  // 1. Event 1: Put away plates:
+																	  // Conditional: If (a plate is fancy) {
+																	  //              stack it on the top shelf
+                                                                      //              } else {
+                                                                      //              stack it on a bottom shelf																					  
+                                                                      //              } else if { (a plate is cracked) {
+																	  //              put it in the trash
+																	  //              }
+																	  Changing the code after finding a mistake or a potential mistake in our code is called debugging.
+																	  
+																	  // 1. Event 1: Put away plates:
+																	  // Conditional: If (a plate is fancy) {
+																	  //              stack it on the top shelf
+                                                                      //              } else {
+                                                                      //              stack it on a bottom shelf																					  
+                                                                      //              } else if { (a plate is cracked) {
+																	  //              put it in the trash
+																	  //              }
+																	  // 2. Event 2: Put away bowls:
+																	  // Loop: for (for each bowl on the dish rack) {
+																	  //              stack it on the bottom shelf on top of plain plates
+																	  //           }
+																	  We've created a for each loop, or action that will repeat over and over again untill the condition is met.
+																	
+Agile software development: or simply agile is the process of a constant testing and improving the code. Its an ability to create and respond to change.
+                           Usually it's done through sharing it with others and make improvements based on their feedback.
+						   What sepparates agile from other approaches to software dev is the focus on people and how they work together.
+						   Solutions evolve through collaboration between self-organizing cross-functional teams utilizing the appropriate practices for their context.
+						   Key takeaway here is to develop software in such a way that helps your team deal with uncertainty.
+						   
+Web Dev Process:
+                
+                1. Identify the problem: conduct research to determine how application will solve the problem of an end user.
+
+                2. Plan and gather resources: determine the budget and resources needed.
+
+                3. Design: create planning template and outline all details and requirements for an application.
+
+                4. Develop: begin coding.
+
+                5. Test: test an application to ensure everything runs correctly and fix any issues found.
+
+                6. Deploy: publish the application and make it avaliable to the end user. Additional tests can be made to ensure there are minimal errors before the app is released.
+
+                7. Maintain: run tests and write code to improve performance and other features, and monitor customer feedback for issues and suggestions.
+
+Web Dev Methodologies:
+
+                      1. Waterfall: in this methodology all requirements are collected and and then each step is completed sequientially.
+                         This model is suited for smaller projects.
+
+                      2. Agile: here project is broken down into smaller components and built on incremental basis. Feedback and testig are essential components of this model to create and
+                         deliver project that solves the problem of an end user well. This methodology is best suited for bigger projects.
+
+Agile Way of Development:
+
+                         1. We develop the app
+
+                         2. We test the app
+
+                         3. We gather feedback
+
+                         4. We make changes						 
+             
+                         - To build subsequent parts of our project, we continue this process until all of our project requirements are met and we have a minimum viable product, or MVP.																	  
+							
+                         - Agile development is all about iteration, or repeating the process untill every step untill all the requirements are met and project is complete.							
+																	  
+						 - Each time we run through the steps of the iterative cycle, we end up with a different version of our app.
+
+                         - Version control is helpful in situations when we create a new version of a program, but when we come across a bug in a 
+						   new version and we need to revert to an earlier copy without losing other versions of our code.
+
+                         - Every time we save a version of our work using version control, it is assigned a unique identifier called an SHA, or hash, that allows you to keep a record of the specific changes committed.						   
+																	  
+						 - When we are accessing an SHA, we use only first seven numbers of a code. It is sufficient to allow the right version to be retrieved. 											  
+																	  
+Git: is a version control software that allows you to manage and keep track of each version of your project and also allows multiple people people to make changes to a project without getting in each others way. 
+     Git commands always start with git and are used to safe and track versions of your code and also colaborate with others.
+	 
+GitHub: is a cloud-based service that hosts our repositories, which is where the project code will live.
+
+     - every project on Github is called a repository. Repository contains all of the files and their revision history.
+
+     - Branch is a workspace where you can make changes that don't affect the live site. It is usefull in situations when there are multiple people are working on a project.
+	 
+	 - Markdown (.md) is the way content files are formated in Github, the markdown language easily converts to HTML.
+	 
+	 - Commit changes is how you safe a new version of a file to a branch.
+	 
+	 - "PR" or pull requiest is the way to discuss and review your work with others.
+
+     - Issue is a way to report new tasks or content fixes 	 
+																	  
+CLI commans: 
+
+             pwd - shows working directory or a directory that you are currently working in.
+			 ls - shows a list of files and folders in your working directory.
+			 ls -la - shows a list of files + history of file creation and activity.
+			 ~ - your home folder and everything that belongs to the current user (settings, files and etc).
+			 cd - or "change directory" allows you to move into a directory; type cd and "NAME OF A DIRECTORY" to sellect it.
+			    - type pwd command to confirm the directory.
+			 cd .. - to go one step back.
+			 mkdr - type mkdr + NAME OF A DIRECTORY to create a new directory.
+			 touch - will create a new text file (touch SOME_NAME.txt). 
+			       - Example: touch index.html - will create an html file.
+			 start + SOME NAME.txt will open a file in a new window (open + SOME NAME.txt for mac users).
+			 code . - to launch the VS code.
+			 git status - to check wether the branch is up to date.
+			 git checkout -b feature/starter-code - to create new feature branch.
+			              - git command must precede every Git statement.
+						  - checkout command is to move the working branch to a new branch.
+						  - -b flag creates a new branch.
+						  - feature/starter-code is the name of a new branch.
+			 git checkout main - to switch to the main branch.
+			 git add -A: add - command adds modifications in the current working branch to the staging area.
+						 -A - flag indicates that we want to add all changes. The staging area informs Git that
+						      the changes will be added in the next commit.
+			 git commit -m "add starter code" - to update feature/starter-code with a starter code.
+			 git pull origin main - Allows to sync remote and local branches.
+			 git push origin feature/add-html - to push all of the changes.
+			 rm - to delete the file (rm SOME_NAME.txt).
+
+Git Bash - is a Linux based platform, NOT Windows based!
+
+Graphical User Interface (GUI) - is a way for a user to interact with the computer visually.
+                                 It substitues the terminal to communicate with the computer.
+								 GUI was popularized by Apple in 1980s.
+
+Integrated Development Environment (IDE) - is a type of a software used by developers that combines many of a features and
+                                           and contains many essential tools needed to work in GUI.
+										   
+Branching:
+          
+			1. First to creating a local development environment is to create a feature branch.
+			   - Our default branch is called the main, or master branch.
+			   - We shouldn't do any coding in the main branch. Instead, we should branch off of the main one
+			     and create a feature branch. That way we leave the main branch intact and will be able to track
+				 changes made to it via feature branches.
+				 
+			2. In a feature branch, we make commits of all the changes made while coding.
+			   - Commit messages contain descriptive messages of all the changes made in the branch.
+			   
+			3. Next step is to push up the changes to our feature branch in our GitHub repository.
+			   - We need to merge our changes in feature branch (comparison branch) with our main branch (base branch).
+			   - In order to do that, we need to open up a pull requiest or PR.
+			
+			4. Once the PR is opened, other developers can view those changes, comment on them and request changes.
+			   - You can also view any conflicts you have made between comparison branch and base branch on your PR and resolve them.
+			
+			5. Once your PR is approved, you can merge it into the main branch. Following that, the code in the main branch is updated
+			   with your changes.
+			   - Whenever you decide to make new changes to the branch, you will branch off this newly updated branch.
+
+Web Application - is an application that is accessed via web-browser and which allows the user to perform various tasks.
+				- in order to access the web application, the user has to enter it's URL.
+
+URL (Uniform Resource Locator) - is the unique address given to a specific resource on the web. When we deploy the website, user access it through the URL.
+
+Three languages that are required to build an application: HTML (Hypertext Markup Language) - to give the content structure.
+														   
+														   CSS (Cascading Style Sheets) - to give the content style.
+														   
+														   JS (JavaScript) - to handle logic and allow user to interact with a website.
+														   
+HTML - is made up of elements which provide content and the basic framework for all the pages on the web. A good way to think of HTML is like a frame that serves
+       as a structure on which the house will be built upon. Afterwards, you color it with CSS, and then you interact with it in such a way as opening and closing doors,
+	   cooking meal, using the sink.
+
+Element - is a type of content on a web page. 
+          Types of elements commonly used:                                                          
+                                           - Text elements
+										   - Image elements
+										   - Header elements
+										   - List elements
+		- appart from visibal elements on the page, there are also elements that are used on the page to
+          describe content to browsers and other developers.
+															- Meta-related elements
+															- Content divison elements
+															- Semantic elements
+
+Elements - build a structurte of a web page and provide framework that is easy for a user to navigate the webpage.
+
+< > - angle brackets represent opening and closing tags, which are used for html elements that define content and framework.
+
+Difference between tags and elements is that elements span from opening and closing tag, represented by angle brackets < >. Tags, in contrast appear only inside angle brackets.													
+
+<head> and <body> elements are especially important to understand:
+                                                                  <head> - element contains information, or metadata, that helps the browser to render the page correctly.
+																           elements included with the <head> are not visible when the user looks at a web page.
+																		   
+																  <body> - element contains the content that is shown to the user. All the elements that we want the user to see and 
+																           interact with must be placed inside this element.
+
+<!DOCTYPE html> - declaration tells to the browser that html document type will be used on the page.
+
+<html> - is an opening tag and represents the root, or the start of the HTML document.
+	   - you can use an attribute inside the opening tag, such as: lang="eng" which tells the browser the laguage of the web page <html lang="eng">.
+	     attributes define additional information about the element and can only be used in the opening element, and never closing element.
+		 
+Metadata - is a data about the webpage and contains important information about accessibility, search engines, and performance.
+		 
+<head> - is an opening element that contains metadata for the website.
+
+<meta> - element is inside the <head> element and defines metadata such as the character set, description, keywords, author and viewport.
+
+charset - element sets our character encoding.
+
+http-equiv - sets an HTTP header for content.
+
+viewport - sets the default view for our webpage.
+
+<title> - element is used insie the <head> element and it defines the title for a web page. This element is required and is very important for SEO.
+
+Child elements - are elements that are nested inside other elements.
+
+Parent element - is the element that holds all the child elements.
+
+Semantic HTML elements - the name of this type of element describes its content and the role it plays on a web page (<body> element is an example of a semantic element).
+                       - benefit of using semantic elements is that it makes your HTML easier to read by other developers and the browser.
+					   - the best practise is to try to use semantic elements as often as possible, especially when content is visible to others.
+
+Headings - when using headings (<h1> through <h6>), it is important to take into consideration the order, in which they are placed.
+		   That helps to make page accessible to users who access the page using screen readers or other devices.
+		   Also, the biggest heading (<h1>) should only appear once on each page.
+
+`alt` - attribute contains a text string that describes the appearance and functionality of the image.
+      - `alt` text is important for screen readers and other assistive technologies, and it can also
+		improve search rankings for your website.
+
+CSS - a programing language used by developers to define how the webpage is presented to users.
+	- it defines colors, aesthetics, visual layout, and organization.
+
+CSS atributes - are properties that influence the styling and layout of HTML elements. Each property controls a small part of the overall style.	
+
+Three ways to style a webpage using CSS: - inline CSS
+											a. useful for quick and permanent changes, but are less flexible than internal and external style sheets.
+											b. apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.
+											c. example: change color of a single h1 heading, by using a style attribute.
+                                         - internal CSS style sheet
+											a. contains CSS rules for the webpage in the head section of the HTML file.
+											b. the rules only apply to that page, and you can configure CSS classes and IDs to style multiple elements in the page code.
+											c. a single change to the CSS rule will apply to all tagged page elements.
+										 - external CSS style sheet
+											a. most preferred way to style the web page, as it allows developers to keep all their CSS rules in a separate file.
+											b. when using external style sheet, we link the file using a <link> element placed in the HTML's <head>.
+
+Separation of concerns - refers to separating code into different files based on use.
+                       - based on the idea that each section of code should have its own responsobility.
+					   
+					   Declarations - in CSS contain 2 important components: the CSS property we want to apply and
+					                  the value of the property. 
+									  Example: declaration - color: red;
+									  color - property, red - is value for that property.
+
+Margin  - property indicates how much space we want around the outside of an element. 
+		- The margin is not visible on the page, it merely adds a buffer.
+		- 0 margin indicates that we want NO extra space around the element.
+
+Padding - property adds space around the content inside an element.
+		- when you increase padding, you actually making the entire element bigger.
+
+CSS Box Model - consists of margins outside the element, and the element's borders, padding, and content.
+
+* - symbol means that we want all the elements will have the same style properties.
+  - The bellow example will set both margin and padding to 0:
+    * {
+	    margin: 0;
+		padding: 0;
+	  }
+
+DRY - coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code
+	  that need to be written or maintained.
+	  Example:
+			  h1,
+			  h2 {
+			       text-align: center;
+				 }
+
+rel - attribute specifies the relationship between the current document and the linked document resource.
+
+href - attribute specifies the location (URL) of the external resource.
+	 - it is using a relative path, whcih means the location is derived from the current location (like index.html).
+
+Class attributes - allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector. 
+                 - with class selectors, we can assign CSS rule to a specific elements, who share the same names.
+
+. - period preceding a selector designates this as a class selector (.class {...}).
+
+JavaScript - is a high-level dynamic programming language that allows users to interact with websites. 
+		   - JavaScript is the tool that takes a static HTML/CSS webpage and makes it interactive.
+		   - JS is an OOP (Object Oriented Programing) language.
+
+Control flow - is the order in which a computer executes code in a JavaScript file.
+			 - since control flow dictates that JavaScript files are executed from top to bottom, order matters.
+
+Variable - in simple terms is a container that allows us to store data in our code.
+		 - to declare a variabe, we use the var keyword. Then, we give the variable a name.
+		 - example: var shape = "circle";
+
+- In contrast to style.css (which is linked within a <head> element), script.js is linked within the <body> element.
+                              
+Conditional statements and loops - are used to control the order in which code is executed.
+
+Array - allows to store a group of related data in a variable.
+	  - typically used to hold data that is related in some way.
+	  - is also a usefull tool for storing multiple items with different data types in a single variable.
+
+Index - is a unique number that is assigned to each item in the array.
+      - you can access individual item inside the array through its index.
+	  - arrays are zero-indexed and sequential.
+
+To access the number in the array by its index:
+
+      var shapes = ["triangle", "square", "pentagon", "circle"];
+	  
+      console.log(shapes[0]);
+
+for loop - goes through each item in the array, and executes the code over and over again.
+		 - in order to use the for loop, we need the shape's index and the array's length.
+		 - length is important, because it indicates how many the code will run until there are no items left in the array.
+		 
+		 Three important statements of a for loop:
+		 
+		 1. Starting point of a loop - we declare a variabe x and give it a value of 0: var x = 0;
+		 2. Condition - as long as the number in the variable x is less than the length of the array,
+		                the loop will keep running: x < shapes.length;
+		 3. Final statement - is what allows the array to iterate over each item: x++, or x+1.
+
+		 for(var x = 0; x < shapes.length; x++) {
+		 
+		 // code block
+		 // example: console.log(topics[x]);
+		 
+		 }
+
+function - is simply a set of instructions that tells the computer how to perform a certain task.
+		 - in contrast to for loop, a function needs to be run in order to be executed. 
+
+URL (Uniform Resource Locator) - is a unique address that is given to every website, and it appears in
+                                 browser's address bar when the website is displayed.
+								 
+README file - acts like a virtual storefront to a repository. It contains an essential information about repo's project.
+			- a high-quality README file explains what your application does and why you used the technologies that you did.
+			- at bare minimum, a README needs a title and short description explaining the what, why, and how of the project.
+			- it is good to describe some of the challenges you faced, as well as the features you plan to implement in the future.
+
+The browser - allows an internet user to type in requests for different resources from the web and render them into a unified user experience.
+
+HTTP (Hyper Text Transfer Protocol)request - is a process by which computers send text-based information to each other.
+										   - every image, video, and audio piece of content that is user experiences, starts as a stream of
+										     of text going into your browser to then be rendered.
